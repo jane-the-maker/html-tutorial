@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
 
   <body>
     <section>
       <nav>
-        <img src="build-your-website-resoures/assets/fes.svg" alt=" ">
+        <img src="build-your-website-resoures/assets/fes.svg" class="logo" alt=" ">
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#discord">Discord</a></li>
@@ -17,11 +18,14 @@
         </ul>
       </nav>
       <header>
-        <div>
+        <div class="row">
+          <div>
           <h1>Best place to learn frontend.</h1>
-          <p>Go from absolute beginner to pro with a simplified process.</p>
+          <p class = "subheader">Go from absolute beginner to pro with a simplified process.</p>
           <button>Start Now</button>
+         </div>
         </div>
+
         <figure>
           <img src="build-your-website-resoures/assets/laptop.png" alt="Home page image>"
         </figure>
@@ -31,22 +35,25 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Quisquam, quod.
-          </p>
-          <p>
-            lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            quod.
-          </p>
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p>
+              lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+              quod. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Quisquam, quod.
+            </p>
+            <p>
+              lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+              quod.
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="build-your-website-resoures/assets/about.jpg" alt="About us" />
+          </figure>
         </div>
-        <figure>
-          <img src="build-your-website-resoures/assets/about.jpg" alt="About us" />
-        </figure>
       </section>
+      
 
       <section id="discord">
         <h2>Discord</h2>
